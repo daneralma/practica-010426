@@ -8,13 +8,47 @@ body{
 }
 .container{
     width: 80%;
-    height: 300px;
-    max-width: 600px;
+    height: 400px;
+    max-width: 300px;
     margin: 20px auto; 
     border: 2px solid black;
+    display: flex;
+    align-items: start;
+    align-items: center;
+    gap: 20px;
+    justify-content:center ;
 }
-.box{
-    width: 100%;
-    height: 35%;
+.box:hover{
+    width: 150%;
+    height: 100%;
+    align-content: center;
     background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: solid black;
+    
+}
+.box1{
+    background-color: rgb(100, 3, 3);
+    
+}
+.box2{
+    background-color: rgb(2, 17, 31);
+}
+.box3{
+    background-color: aliceblue;
+}
+
+
+.limo1:hover, .limo2:hover, .limo3:hover{
+    style: none;
+    width: 600%;
+    height: 60%;
+    display: inline;
+    width: end;
+}
+.nav{
+    display: flex;
+    width: end;
 }
